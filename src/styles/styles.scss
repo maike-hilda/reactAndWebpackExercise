@@ -1,0 +1,17 @@
+/* entry file */
+// $brand-color: blue;
+
+// * {
+//     color: $brand-color;
+// }
+
+@import "./base/settings";
+@import "./base/base"; /* leave out extension and underscore */
+/* order doesn't matter, do in alphabetical ordr */ 
+@import "./components/add-option";
+@import "./components/button";
+@import "./components/container";
+@import "./components/header";
+@import "./components/modal";
+@import "./components/option";
+@import "./components/widget";
